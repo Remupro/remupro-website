@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RemuPro Consultores</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; background-color: #f8f9fa; }
+        header { background-color: #00274D; color: white; padding: 20px; }
+        section { padding: 20px; }
+        .services { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .service-card { background: #f1f1f1; padding: 20px; border-radius: 8px; width: 300px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); }
+        footer { background-color: #00274D; color: white; padding: 10px; margin-top: 20px; }
+        .cta-button { background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; }
+        .cta-button:hover { background-color: #0056b3; }
+        .social-icons { margin-top: 20px; }
+        .social-icons a { margin: 0 10px; display: inline-block; }
+        .social-icons img { width: 30px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RemuPro Consultores</h1>
+        <p>Expertos en remuneraciones y gestión de recursos humanos</p>
+    </header>
+    <section>
+        <h2>Nuestros Servicios</h2>
+        <div class="services">
+            <div class="service-card">
+                <h3>Gestión de Remuneraciones</h3>
+                <p>Liquidaciones de sueldo, cotizaciones y cumplimiento normativo.</p>
+                <a href="#contacto" class="cta-button">Cotiza Ahora</a>
+            </div>
+            <div class="service-card">
+                <h3>Auditoría de Sueldos</h3>
+                <p>Revisión de pagos y cumplimiento de leyes laborales.</p>
+                <a href="#contacto" class="cta-button">Solicitar Auditoría</a>
+            </div>
+            <div class="service-card">
+                <h3>Capacitación</h3>
+                <p>Formación en remuneraciones y software de gestión.</p>
+                <a href="#contacto" class="cta-button">Inscribirse</a>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <p>📧 <a href="mailto:contacto@remupro.cl">contacto@remupro.cl</a></p>
+        <p>📞 <a href="tel:+56912345678">+56 9 1234 5678</a></p>
+        <p>📱 <a href="https://wa.me/56912345678" class="cta-button">WhatsApp</a></p>
+        <div class="social-icons">
+            <a href="https://facebook.com/remupro" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="https://linkedin.com/company/remupro" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+            <a href="https://instagram.com/remupro" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 RemuPro Consultores - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
